@@ -4,8 +4,8 @@
     - name: Install nfs-common
       ansible.builtin.apt:
         name: nfs-common
-    - name: Template a file to /etc/file.conf
+    - name: Configure multipath
       ansible.builtin.template:
-        src: /templates/multipath.conf
+        src: templates/multipath.conf
         dest: /etc/multipath.conf
         mode: '0644'
