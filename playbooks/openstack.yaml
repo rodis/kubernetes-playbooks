@@ -1,0 +1,8 @@
+plugin: openstack.cloud.openstack
+
+expand_hostvars: true
+fail_on_errors: true
+all_projects: false
+only_clouds:
+  - "west"
+strict: true
