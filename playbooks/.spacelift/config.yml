@@ -1,0 +1,6 @@
+version: "1"
+
+stack_defaults:
+    runner_image: rodis/runner-ansible-openstack:latest
+    environment:
+        ANSIBLE_CONFIG: /mnt/workspace/source/playbooks/ansible.cfg
