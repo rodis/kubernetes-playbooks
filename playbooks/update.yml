@@ -14,6 +14,3 @@
       ansible.builtin.apt:
         upgrade: dist
 
-    - name: Install nfs-common
-      ansible.builtin.apt:
-        name: rsync
