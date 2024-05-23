@@ -13,3 +13,7 @@
       when: ansible_pkg_mgr == 'apt'
       ansible.builtin.apt:
         upgrade: dist
+
+    - name: Install nfs-common
+      ansible.builtin.apt:
+        name: rsync
